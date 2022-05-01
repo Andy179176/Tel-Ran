@@ -10,7 +10,7 @@ public class Main {
         System.out.print("{");
         int i = arr.length -1;
         while (i > 0) {
-            System.out.print(arr[i] + ", ");
+            System.out.print(arr[i] + ", "); //!
             i--;
         }
         System.out.print(arr[0]+"}");
